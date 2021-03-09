@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://${db_url}/simbirsoft_test
+    username: ${db_user}
+    password: ${db_password}
+    driver-class: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+      show_sql: true
